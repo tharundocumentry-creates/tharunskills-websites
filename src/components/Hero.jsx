@@ -21,17 +21,11 @@ const Hero = () => {
     const currentFrame = index =>
       `/robot-frames/${(index + 1).toString().padStart(4, '0')}.png`;
 
-    const images = [];
+    const images = new Array(frameCount);
     const state = { frame: 0 };
 
-    for (let i = 0; i < frameCount; i++) {
-      const img = new Image();
-      img.src = currentFrame(i);
-      images.push(img);
-    }
-
     function render() {
-      // Size canvas to its CSS-rendered size (right 65% of viewport)
+      // Size canvas to its CSS-rendered size
       const rect = canvas.getBoundingClientRect();
       if (canvas.width !== rect.width || canvas.height !== rect.height) {
         canvas.width = rect.width;
@@ -48,7 +42,42 @@ const Hero = () => {
       ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
     }
 
-    images[0].onload = render;
+    // Load first frame immediately for instant initial render
+    const firstImg = new Image();
+    firstImg.src = currentFrame(0);
+    images[0] = firstImg;
+    firstImg.onload = render;
+
+    // Load remaining frames progressively in background
+    const loadRemainingFrames = () => {
+      let index = 1;
+      const loadNextBatch = () => {
+        const batchSize = 5;
+        for (let b = 0; b < batchSize && index < frameCount; b++, index++) {
+          const img = new Image();
+          img.src = currentFrame(index);
+          images[index] = img;
+        }
+        if (index < frameCount) {
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(loadNextBatch);
+          } else {
+            setTimeout(loadNextBatch, 50);
+          }
+        }
+      };
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadNextBatch);
+      } else {
+        setTimeout(loadNextBatch, 100);
+      }
+    };
+
+    if (document.readyState === 'complete') {
+      loadRemainingFrames();
+    } else {
+      window.addEventListener('load', loadRemainingFrames, { once: true });
+    }
 
     // Scroll-driven image sequence — all 95 frames
     const tl = gsap.timeline({

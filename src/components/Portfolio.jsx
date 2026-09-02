@@ -7,26 +7,41 @@ import './Portfolio.css';
 const MediaItem = ({ item, onClick }) => {
   const isVideo = item.url.match(/\.(mp4|mov|webm)$/i);
   const displayName = item.name.length > 40 ? item.name.slice(0, 38) + '…' : item.name;
-  const handleContextMenu = (e) => e.preventDefault();
+  const videoRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(() => {});
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }
+  };
 
   return (
     <div
       className="media-container"
       onClick={() => onClick(item)}
-      onContextMenu={handleContextMenu}
+      onContextMenu={(e) => e.preventDefault()}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       {isVideo ? (
         <video
+          ref={videoRef}
           src={item.url}
           className="media-element"
-          autoPlay
+          preload="metadata"
           loop
           muted
           playsInline
           controlsList="nodownload"
         />
       ) : (
-        <img src={item.url} alt={displayName} className="media-element" loading="lazy" />
+        <img src={item.url} alt={displayName} className="media-element" loading="lazy" decoding="async" />
       )}
       {isVideo && (
         <div className="video-indicator">
