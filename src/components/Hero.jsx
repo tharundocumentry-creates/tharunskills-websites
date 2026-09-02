@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const APPS = ['Blender', 'After Effects', 'Photoshop', 'DaVinci Resolve', 'Illustrator', 'Premiere Pro', 'AI Video Gen', 'AI Image Gen'];
 
-const Hero = () => {
+const Hero = ({ preloadedImages }) => {
   const canvasRef = useRef(null);
   const containerRef = useRef(null);
   const textRef = useRef(null);
@@ -21,8 +21,16 @@ const Hero = () => {
     const currentFrame = index =>
       `/robot-frames/${(index + 1).toString().padStart(4, '0')}.png`;
 
-    const images = new Array(frameCount);
+    const images = preloadedImages || new Array(frameCount);
     const state = { frame: 0 };
+
+    if (!preloadedImages) {
+      for (let i = 0; i < frameCount; i++) {
+        const img = new Image();
+        img.src = currentFrame(i);
+        images[i] = img;
+      }
+    }
 
     function render() {
       // Size canvas to its CSS-rendered size
@@ -42,42 +50,8 @@ const Hero = () => {
       ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
     }
 
-    // Load first frame immediately for instant initial render
-    const firstImg = new Image();
-    firstImg.src = currentFrame(0);
-    images[0] = firstImg;
-    firstImg.onload = render;
-
-    // Load remaining frames progressively in background
-    const loadRemainingFrames = () => {
-      let index = 1;
-      const loadNextBatch = () => {
-        const batchSize = 5;
-        for (let b = 0; b < batchSize && index < frameCount; b++, index++) {
-          const img = new Image();
-          img.src = currentFrame(index);
-          images[index] = img;
-        }
-        if (index < frameCount) {
-          if ('requestIdleCallback' in window) {
-            requestIdleCallback(loadNextBatch);
-          } else {
-            setTimeout(loadNextBatch, 50);
-          }
-        }
-      };
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(loadNextBatch);
-      } else {
-        setTimeout(loadNextBatch, 100);
-      }
-    };
-
-    if (document.readyState === 'complete') {
-      loadRemainingFrames();
-    } else {
-      window.addEventListener('load', loadRemainingFrames, { once: true });
-    }
+    render();
+    if (images[0]) images[0].onload = render;
 
     // Scroll-driven image sequence — all 95 frames
     const tl = gsap.timeline({
@@ -104,7 +78,7 @@ const Hero = () => {
       window.removeEventListener('resize', onResize);
       ScrollTrigger.getAll().forEach(t => t.kill());
     };
-  }, []);
+  }, [preloadedImages]);
 
   return (
     <div className="hero-container" ref={containerRef}>
