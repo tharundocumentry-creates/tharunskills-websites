@@ -248,6 +248,33 @@ const CategorySection = ({ title, subcategories, onMediaClick }) => {
   );
 };
 
+const ModalVideo = ({ item }) => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.preload = 'auto';
+      videoRef.current.play().catch(() => {});
+    }
+  }, [item.url]);
+
+  return (
+    <video
+      key={item.url}
+      ref={videoRef}
+      src={item.url}
+      className="modal-media"
+      autoPlay
+      preload="auto"
+      playsInline
+      controls
+      controlsList="nodownload"
+      fetchpriority="high"
+      onContextMenu={(e) => e.preventDefault()}
+    />
+  );
+};
+
 const Portfolio = () => {
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -289,14 +316,7 @@ const Portfolio = () => {
           </button>
           <div className="modal-content" onClick={e => e.stopPropagation()}>
             {selectedItem.url.match(/\.(mp4|mov|webm)$/i) ? (
-              <video
-                src={selectedItem.url}
-                className="modal-media"
-                autoPlay
-                controls
-                controlsList="nodownload"
-                onContextMenu={e => e.preventDefault()}
-              />
+              <ModalVideo item={selectedItem} />
             ) : (
               <img
                 src={selectedItem.url}
