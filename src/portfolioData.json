@@ -2,366 +2,450 @@
   "3d animator": {
     "animation stories": [
       {
-        "name": "boys.mp4",
+        "name": "Boys",
+        "filename": "boys.mp4",
         "url": "/portfolio/3d animator/animation stories/boys.mp4"
       },
       {
-        "name": "cafe.mp4",
+        "name": "Cafe",
+        "filename": "cafe.mp4",
         "url": "/portfolio/3d animator/animation stories/cafe.mp4"
       },
       {
-        "name": "girl.mp4",
+        "name": "Girl",
+        "filename": "girl.mp4",
         "url": "/portfolio/3d animator/animation stories/girl.mp4"
       },
       {
-        "name": "investigation.mp4",
+        "name": "Investigation",
+        "filename": "investigation.mp4",
         "url": "/portfolio/3d animator/animation stories/investigation.mp4"
       },
       {
-        "name": "locker.mov",
+        "name": "Locker",
+        "filename": "locker.mov",
         "url": "/portfolio/3d animator/animation stories/locker.mov"
       },
       {
-        "name": "robot.mp4",
+        "name": "Robot",
+        "filename": "robot.mp4",
         "url": "/portfolio/3d animator/animation stories/robot.mp4"
       }
     ],
     "explainers": [
       {
-        "name": "audio 1 final_1.mp4",
-        "url": "/portfolio/3d animator/explainers/audio 1 final_1.mp4"
+        "name": "Audio 1",
+        "filename": "audio-1.mp4",
+        "url": "/portfolio/3d animator/explainers/audio-1.mp4"
       },
       {
-        "name": "brio colours_1.mp4",
-        "url": "/portfolio/3d animator/explainers/brio colours_1.mp4"
+        "name": "Brio Colors",
+        "filename": "brio-colors.mp4",
+        "url": "/portfolio/3d animator/explainers/brio-colors.mp4"
       },
       {
-        "name": "cantiglide_brio_1.mp4",
-        "url": "/portfolio/3d animator/explainers/cantiglide_brio_1.mp4"
+        "name": "Cantiglide",
+        "filename": "cantiglide.mp4",
+        "url": "/portfolio/3d animator/explainers/cantiglide.mp4"
       },
       {
-        "name": "ep 03 audio 1_1.mp4",
-        "url": "/portfolio/3d animator/explainers/ep 03 audio 1_1.mp4"
+        "name": "Ep 03",
+        "filename": "ep-03.mp4",
+        "url": "/portfolio/3d animator/explainers/ep-03.mp4"
       },
       {
-        "name": "final out compressed_1.mp4",
-        "url": "/portfolio/3d animator/explainers/final out compressed_1.mp4"
+        "name": "Explainer Final",
+        "filename": "explainer-final.mp4",
+        "url": "/portfolio/3d animator/explainers/explainer-final.mp4"
       },
       {
-        "name": "final video_1_1.mp4",
-        "url": "/portfolio/3d animator/explainers/final video_1_1.mp4"
+        "name": "Gcr 3",
+        "filename": "gcr-3.mp4",
+        "url": "/portfolio/3d animator/explainers/gcr-3.mp4"
       },
       {
-        "name": "gcr 3_1.mp4",
-        "url": "/portfolio/3d animator/explainers/gcr 3_1.mp4"
+        "name": "Gold Video",
+        "filename": "gold-video.mp4",
+        "url": "/portfolio/3d animator/explainers/gold-video.mp4"
       },
       {
-        "name": "gold video_1.mp4",
-        "url": "/portfolio/3d animator/explainers/gold video_1.mp4"
+        "name": "Groovedbelt",
+        "filename": "groovedbelt.mp4",
+        "url": "/portfolio/3d animator/explainers/groovedbelt.mp4"
       },
       {
-        "name": "Gujarat_1.mp4",
-        "url": "/portfolio/3d animator/explainers/Gujarat_1.mp4"
+        "name": "Gujarat",
+        "filename": "gujarat.mp4",
+        "url": "/portfolio/3d animator/explainers/gujarat.mp4"
       },
       {
-        "name": "mr earth 2_1.mp4",
-        "url": "/portfolio/3d animator/explainers/mr earth 2_1.mp4"
+        "name": "Mr Earth",
+        "filename": "mr-earth.mp4",
+        "url": "/portfolio/3d animator/explainers/mr-earth.mp4"
       },
       {
-        "name": "sv 16_1.mp4",
-        "url": "/portfolio/3d animator/explainers/sv 16_1.mp4"
+        "name": "Sv 16",
+        "filename": "sv-16.mp4",
+        "url": "/portfolio/3d animator/explainers/sv-16.mp4"
       }
     ],
     "modeling": [
       {
-        "name": "BOARD ANGLE 1.png",
-        "url": "/portfolio/3d animator/modeling/BOARD ANGLE 1.png"
+        "name": "Board Angle",
+        "filename": "board-angle.png",
+        "url": "/portfolio/3d animator/modeling/board-angle.png"
       },
       {
-        "name": "Kawaia.png",
-        "url": "/portfolio/3d animator/modeling/Kawaia.png"
+        "name": "Kawaia",
+        "filename": "kawaia.png",
+        "url": "/portfolio/3d animator/modeling/kawaia.png"
       },
       {
-        "name": "robot model 2.png",
-        "url": "/portfolio/3d animator/modeling/robot model 2.png"
+        "name": "Robot Model 1",
+        "filename": "robot-model-1.png",
+        "url": "/portfolio/3d animator/modeling/robot-model-1.png"
       },
       {
-        "name": "robot model.png",
-        "url": "/portfolio/3d animator/modeling/robot model.png"
+        "name": "Robot Model 2",
+        "filename": "robot-model-2.png",
+        "url": "/portfolio/3d animator/modeling/robot-model-2.png"
       }
     ],
     "product animation": [
       {
-        "name": "out.mp4",
-        "url": "/portfolio/3d animator/product animation/out.mp4"
+        "name": "Outdoor",
+        "filename": "outdoor.mp4",
+        "url": "/portfolio/3d animator/product animation/outdoor.mp4"
       },
       {
-        "name": "output outdoor2.mp4",
-        "url": "/portfolio/3d animator/product animation/output outdoor2.mp4"
-      },
-      {
-        "name": "perfume.mp4",
+        "name": "Perfume",
+        "filename": "perfume.mp4",
         "url": "/portfolio/3d animator/product animation/perfume.mp4"
       },
       {
-        "name": "quantum human.mp4",
-        "url": "/portfolio/3d animator/product animation/quantum human.mp4"
+        "name": "Product 1",
+        "filename": "product-1.mp4",
+        "url": "/portfolio/3d animator/product animation/product-1.mp4"
       },
       {
-        "name": "razor.mp4",
+        "name": "Quantum",
+        "filename": "quantum.mp4",
+        "url": "/portfolio/3d animator/product animation/quantum.mp4"
+      },
+      {
+        "name": "Razor",
+        "filename": "razor.mp4",
         "url": "/portfolio/3d animator/product animation/razor.mp4"
       }
     ],
     "zack d films style edit": [
       {
-        "name": "airpot scene.mp4",
-        "url": "/portfolio/3d animator/zack d films style edit/airpot scene.mp4"
+        "name": "Airport",
+        "filename": "airport.mp4",
+        "url": "/portfolio/3d animator/zack d films style edit/airport.mp4"
       },
       {
-        "name": "andre.mp4",
+        "name": "Andre",
+        "filename": "andre.mp4",
         "url": "/portfolio/3d animator/zack d films style edit/andre.mp4"
       },
       {
-        "name": "final render.mp4",
-        "url": "/portfolio/3d animator/zack d films style edit/final render.mp4"
+        "name": "Final Render",
+        "filename": "final-render.mp4",
+        "url": "/portfolio/3d animator/zack d films style edit/final-render.mp4"
       },
       {
-        "name": "Future_Animation_Task.mp4",
-        "url": "/portfolio/3d animator/zack d films style edit/Future_Animation_Task.mp4"
+        "name": "Future Task",
+        "filename": "future-task.mp4",
+        "url": "/portfolio/3d animator/zack d films style edit/future-task.mp4"
       },
       {
-        "name": "lip sticlk gun.mp4",
-        "url": "/portfolio/3d animator/zack d films style edit/lip sticlk gun.mp4"
+        "name": "Lipstick Gun",
+        "filename": "lipstick-gun.mp4",
+        "url": "/portfolio/3d animator/zack d films style edit/lipstick-gun.mp4"
       },
       {
-        "name": "no nose video.mp4",
-        "url": "/portfolio/3d animator/zack d films style edit/no nose video.mp4"
+        "name": "No Nose",
+        "filename": "no-nose.mp4",
+        "url": "/portfolio/3d animator/zack d films style edit/no-nose.mp4"
       },
       {
-        "name": "out.mp4",
-        "url": "/portfolio/3d animator/zack d films style edit/out.mp4"
+        "name": "Style Edit",
+        "filename": "style-edit.mp4",
+        "url": "/portfolio/3d animator/zack d films style edit/style-edit.mp4"
       },
       {
-        "name": "video 6.mp4",
-        "url": "/portfolio/3d animator/zack d films style edit/video 6.mp4"
+        "name": "Video 6",
+        "filename": "video-6.mp4",
+        "url": "/portfolio/3d animator/zack d films style edit/video-6.mp4"
       }
     ]
   },
   "graphic design": {
     "odyssey booklet": [
       {
-        "name": "new booklet1.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet1.jpg"
+        "name": "Booklet 01",
+        "filename": "booklet-01.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-01.jpg"
       },
       {
-        "name": "new booklet2.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet2.jpg"
+        "name": "Booklet 02",
+        "filename": "booklet-02.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-02.jpg"
       },
       {
-        "name": "new booklet3.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet3.jpg"
+        "name": "Booklet 03",
+        "filename": "booklet-03.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-03.jpg"
       },
       {
-        "name": "new booklet4.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet4.jpg"
+        "name": "Booklet 04",
+        "filename": "booklet-04.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-04.jpg"
       },
       {
-        "name": "new booklet5.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet5.jpg"
+        "name": "Booklet 05",
+        "filename": "booklet-05.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-05.jpg"
       },
       {
-        "name": "new booklet6.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet6.jpg"
+        "name": "Booklet 06",
+        "filename": "booklet-06.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-06.jpg"
       },
       {
-        "name": "new booklet7.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet7.jpg"
+        "name": "Booklet 07",
+        "filename": "booklet-07.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-07.jpg"
       },
       {
-        "name": "new booklet8.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet8.jpg"
+        "name": "Booklet 08",
+        "filename": "booklet-08.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-08.jpg"
       },
       {
-        "name": "new booklet9.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet9.jpg"
+        "name": "Booklet 09",
+        "filename": "booklet-09.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-09.jpg"
       },
       {
-        "name": "new booklet10.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet10.jpg"
+        "name": "Booklet 10",
+        "filename": "booklet-10.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-10.jpg"
       },
       {
-        "name": "new booklet11.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet11.jpg"
+        "name": "Booklet 11",
+        "filename": "booklet-11.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-11.jpg"
       },
       {
-        "name": "new booklet12.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet12.jpg"
+        "name": "Booklet 12",
+        "filename": "booklet-12.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-12.jpg"
       },
       {
-        "name": "new booklet13.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet13.jpg"
+        "name": "Booklet 13",
+        "filename": "booklet-13.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-13.jpg"
       },
       {
-        "name": "new booklet14.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet14.jpg"
+        "name": "Booklet 14",
+        "filename": "booklet-14.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-14.jpg"
       },
       {
-        "name": "new booklet15.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet15.jpg"
+        "name": "Booklet 15",
+        "filename": "booklet-15.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-15.jpg"
       },
       {
-        "name": "new booklet16.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet16.jpg"
+        "name": "Booklet 16",
+        "filename": "booklet-16.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-16.jpg"
       },
       {
-        "name": "new booklet17.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet17.jpg"
+        "name": "Booklet 17",
+        "filename": "booklet-17.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-17.jpg"
       },
       {
-        "name": "new booklet18.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet18.jpg"
+        "name": "Booklet 18",
+        "filename": "booklet-18.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-18.jpg"
       },
       {
-        "name": "new booklet19.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet19.jpg"
+        "name": "Booklet 19",
+        "filename": "booklet-19.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-19.jpg"
       },
       {
-        "name": "new booklet20.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet20.jpg"
+        "name": "Booklet 20",
+        "filename": "booklet-20.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-20.jpg"
       },
       {
-        "name": "new booklet21.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet21.jpg"
+        "name": "Booklet 21",
+        "filename": "booklet-21.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-21.jpg"
       },
       {
-        "name": "new booklet22.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet22.jpg"
+        "name": "Booklet 22",
+        "filename": "booklet-22.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-22.jpg"
       },
       {
-        "name": "new booklet23.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet23.jpg"
+        "name": "Booklet 23",
+        "filename": "booklet-23.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-23.jpg"
       },
       {
-        "name": "new booklet24.jpg",
-        "url": "/portfolio/graphic design/odyssey booklet/new booklet24.jpg"
+        "name": "Booklet 24",
+        "filename": "booklet-24.jpg",
+        "url": "/portfolio/graphic design/odyssey booklet/booklet-24.jpg"
       }
     ],
     "posters": [
       {
-        "name": "1.png",
-        "url": "/portfolio/graphic design/posters/1.png"
+        "name": "Peace",
+        "filename": "peace.png",
+        "url": "/portfolio/graphic design/posters/peace.png"
       },
       {
-        "name": "Happy Ugadi.png",
-        "url": "/portfolio/graphic design/posters/Happy Ugadi.png"
+        "name": "Poster 1",
+        "filename": "poster-1.png",
+        "url": "/portfolio/graphic design/posters/poster-1.png"
       },
       {
-        "name": "main-file_01.gif",
-        "url": "/portfolio/graphic design/posters/main-file_01.gif"
+        "name": "Poster 2",
+        "filename": "poster-2.png",
+        "url": "/portfolio/graphic design/posters/poster-2.png"
       },
       {
-        "name": "Peace for.png",
-        "url": "/portfolio/graphic design/posters/Peace for.png"
+        "name": "Poster Gif",
+        "filename": "poster-gif.gif",
+        "url": "/portfolio/graphic design/posters/poster-gif.gif"
       },
       {
-        "name": "perfume.png",
-        "url": "/portfolio/graphic design/posters/perfume.png"
+        "name": "Poster Perfume",
+        "filename": "poster-perfume.png",
+        "url": "/portfolio/graphic design/posters/poster-perfume.png"
       },
       {
-        "name": "poster 1.png",
-        "url": "/portfolio/graphic design/posters/poster 1.png"
+        "name": "Ugadi",
+        "filename": "ugadi.png",
+        "url": "/portfolio/graphic design/posters/ugadi.png"
       }
     ],
     "visiting cards": [
       {
-        "name": "visiting card-01.png",
-        "url": "/portfolio/graphic design/visiting cards/visiting card-01.png"
+        "name": "Card 01",
+        "filename": "card-01.png",
+        "url": "/portfolio/graphic design/visiting cards/card-01.png"
       },
       {
-        "name": "visiting card-02.png",
-        "url": "/portfolio/graphic design/visiting cards/visiting card-02.png"
+        "name": "Card 02",
+        "filename": "card-02.png",
+        "url": "/portfolio/graphic design/visiting cards/card-02.png"
       }
     ]
   },
   "video editor": {
     "logo animation": [
       {
-        "name": "logo animation.mp4",
-        "url": "/portfolio/video editor/logo animation/logo animation.mp4"
+        "name": "Logo Anim 1",
+        "filename": "logo-anim-1.mp4",
+        "url": "/portfolio/video editor/logo animation/logo-anim-1.mp4"
       },
       {
-        "name": "LUXURA ELEVATORS.mp4",
-        "url": "/portfolio/video editor/logo animation/LUXURA ELEVATORS.mp4"
+        "name": "Luxura",
+        "filename": "luxura.mp4",
+        "url": "/portfolio/video editor/logo animation/luxura.mp4"
       },
       {
-        "name": "ody animati.mp4",
-        "url": "/portfolio/video editor/logo animation/ody animati.mp4"
+        "name": "Odyssey Anim",
+        "filename": "odyssey-anim.mp4",
+        "url": "/portfolio/video editor/logo animation/odyssey-anim.mp4"
       }
     ],
     "motion graphic": [
       {
-        "name": "aihiom intro 3_1.mp4",
-        "url": "/portfolio/video editor/motion graphic/aihiom intro 3_1.mp4"
+        "name": "Aihiom",
+        "filename": "aihiom.mp4",
+        "url": "/portfolio/video editor/motion graphic/aihiom.mp4"
       },
       {
-        "name": "branding and content marketing_1.mp4",
-        "url": "/portfolio/video editor/motion graphic/branding and content marketing_1.mp4"
+        "name": "Branding",
+        "filename": "branding.mp4",
+        "url": "/portfolio/video editor/motion graphic/branding.mp4"
       },
       {
-        "name": "Main comp_1.mp4",
-        "url": "/portfolio/video editor/motion graphic/Main comp_1.mp4"
+        "name": "Giga Hertz",
+        "filename": "giga-hertz.mp4",
+        "url": "/portfolio/video editor/motion graphic/giga-hertz.mp4"
       },
       {
-        "name": "motion graphic giga heartz_1.mp4",
-        "url": "/portfolio/video editor/motion graphic/motion graphic giga heartz_1.mp4"
+        "name": "Main Comp",
+        "filename": "main-comp.mp4",
+        "url": "/portfolio/video editor/motion graphic/main-comp.mp4"
       },
       {
-        "name": "motion graphic_1.mp4",
-        "url": "/portfolio/video editor/motion graphic/motion graphic_1.mp4"
+        "name": "Motion 1",
+        "filename": "motion-1.mp4",
+        "url": "/portfolio/video editor/motion graphic/motion-1.mp4"
       },
       {
-        "name": "SEO Intro SFX_1.mp4",
-        "url": "/portfolio/video editor/motion graphic/SEO Intro SFX_1.mp4"
+        "name": "Seo Intro",
+        "filename": "seo-intro.mp4",
+        "url": "/portfolio/video editor/motion graphic/seo-intro.mp4"
       }
     ],
     "movie intro": [
       {
-        "name": "INTRO JR SFX Final_1.mp4",
-        "url": "/portfolio/video editor/movie intro/INTRO JR SFX Final_1.mp4"
+        "name": "Jr Intro",
+        "filename": "jr-intro.mp4",
+        "url": "/portfolio/video editor/movie intro/jr-intro.mp4"
       },
       {
-        "name": "night mode_1.mp4",
-        "url": "/portfolio/video editor/movie intro/night mode_1.mp4"
+        "name": "Night Mode",
+        "filename": "night-mode.mp4",
+        "url": "/portfolio/video editor/movie intro/night-mode.mp4"
       },
       {
-        "name": "Take Ok Production Intro_1.mp4",
-        "url": "/portfolio/video editor/movie intro/Take Ok Production Intro_1.mp4"
+        "name": "Take Ok",
+        "filename": "take-ok.mp4",
+        "url": "/portfolio/video editor/movie intro/take-ok.mp4"
       }
     ],
     "video edit": [
       {
-        "name": "furnishka.mp4",
+        "name": "Furnishka",
+        "filename": "furnishka.mp4",
         "url": "/portfolio/video editor/video edit/furnishka.mp4"
       },
       {
-        "name": "kaar ventures.mp4",
-        "url": "/portfolio/video editor/video edit/kaar ventures.mp4"
+        "name": "Kaar Ventures",
+        "filename": "kaar-ventures.mp4",
+        "url": "/portfolio/video editor/video edit/kaar-ventures.mp4"
       },
       {
-        "name": "𝗟𝗶𝗳𝗲 𝗮𝘁 𝗢𝗱𝘆𝘀𝘀𝗲𝘆 𝗘𝗹𝗲𝘃𝗮𝘁𝗼𝗿𝘀 _ 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 _ 𝗞𝗮𝘃𝘆𝗮𝗻𝗮𝘁𝗵 𝗝𝗼𝘂𝗿𝗻𝗲𝘆 _ 𝗘𝗺𝗽𝗹𝗼𝘆𝗲𝗲 𝗧𝗲𝘀𝘁𝗶𝗺𝗼𝗻𝗶𝗮𝗹.mp4",
-        "url": "/portfolio/video editor/video edit/𝗟𝗶𝗳𝗲 𝗮𝘁 𝗢𝗱𝘆𝘀𝘀𝗲𝘆 𝗘𝗹𝗲𝘃𝗮𝘁𝗼𝗿𝘀 _ 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗿 _ 𝗞𝗮𝘃𝘆𝗮𝗻𝗮𝘁𝗵 𝗝𝗼𝘂𝗿𝗻𝗲𝘆 _ 𝗘𝗺𝗽𝗹𝗼𝘆𝗲𝗲 𝗧𝗲𝘀𝘁𝗶𝗺𝗼𝗻𝗶𝗮𝗹.mp4"
+        "name": "Lokesh Shorts",
+        "filename": "lokesh-shorts.mov",
+        "url": "/portfolio/video editor/video edit/lokesh-shorts.mov"
       },
       {
-        "name": "lokesh shorts.mov",
-        "url": "/portfolio/video editor/video edit/lokesh shorts.mov"
+        "name": "Odyssey Testimonial",
+        "filename": "odyssey-testimonial.mp4",
+        "url": "/portfolio/video editor/video edit/odyssey-testimonial.mp4"
       },
       {
-        "name": "shorts render.mp4",
-        "url": "/portfolio/video editor/video edit/shorts render.mp4"
+        "name": "Shorts",
+        "filename": "shorts.mp4",
+        "url": "/portfolio/video editor/video edit/shorts.mp4"
       },
       {
-        "name": "table text.mp4",
-        "url": "/portfolio/video editor/video edit/table text.mp4"
+        "name": "Table Text",
+        "filename": "table-text.mp4",
+        "url": "/portfolio/video editor/video edit/table-text.mp4"
       }
     ]
   }

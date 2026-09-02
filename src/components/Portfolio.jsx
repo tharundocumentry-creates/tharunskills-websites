@@ -140,6 +140,15 @@ const DraggableMarquee = ({ items, onMediaClick }) => {
   );
 };
 
+const Page = React.forwardRef((props, ref) => {
+  return (
+    <div className="book-page" ref={ref}>
+      {props.children}
+    </div>
+  );
+});
+Page.displayName = 'Page';
+
 const BookletSection = ({ items }) => {
   const flipBookRef = useRef(null);
 
@@ -160,16 +169,24 @@ const BookletSection = ({ items }) => {
         ref={flipBookRef}
       >
         {items.map((item, idx) => (
-          <div className="book-page" key={idx}>
-            <img src={item.url} alt={item.name} className="page-image" />
-          </div>
+          <Page key={idx}>
+            <img src={item.url} alt={item.name} className="page-image" loading="lazy" />
+          </Page>
         ))}
       </HTMLFlipBook>
       <div className="booklet-controls">
-        <button className="book-btn glass" onClick={() => flipBookRef.current.pageFlip().flipPrev()}>
+        <button
+          className="book-btn glass"
+          onClick={() => flipBookRef.current?.pageFlip()?.flipPrev()}
+          type="button"
+        >
           ← Previous Page
         </button>
-        <button className="book-btn glass" onClick={() => flipBookRef.current.pageFlip().flipNext()}>
+        <button
+          className="book-btn glass"
+          onClick={() => flipBookRef.current?.pageFlip()?.flipNext()}
+          type="button"
+        >
           Next Page →
         </button>
       </div>

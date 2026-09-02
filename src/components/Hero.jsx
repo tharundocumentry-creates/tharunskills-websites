@@ -19,7 +19,7 @@ const Hero = () => {
 
     const frameCount = 95;
     const currentFrame = index =>
-      `/robot wave png file hero page/${(index + 1).toString().padStart(4, '0')}.png`;
+      `/robot-frames/${(index + 1).toString().padStart(4, '0')}.png`;
 
     const images = [];
     const state = { frame: 0 };

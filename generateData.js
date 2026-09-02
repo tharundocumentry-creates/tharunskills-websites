@@ -4,13 +4,12 @@ import path from 'path';
 const portfolioDir = path.join(process.cwd(), 'public', 'portfolio');
 const data = {};
 
-// Structure we want:
-// {
-//   "3d animator": {
-//     "animation stories": [ {name, url}, ... ],
-//     "explainers": []
-//   }
-// }
+function formatTitle(filename) {
+  const nameWithoutExt = filename.replace(/\.[^/.]+$/, '');
+  return nameWithoutExt
+    .replace(/[-_]+/g, ' ')
+    .replace(/\b\w/g, char => char.toUpperCase());
+}
 
 function generate() {
   const categories = fs.readdirSync(portfolioDir).filter(f => fs.statSync(path.join(portfolioDir, f)).isDirectory());
@@ -29,7 +28,8 @@ function generate() {
       
       for (const file of files) {
         data[category][sub].push({
-          name: file,
+          name: formatTitle(file),
+          filename: file,
           url: `/portfolio/${category}/${sub}/${file}`
         });
       }
@@ -44,3 +44,4 @@ fs.writeFileSync(
   JSON.stringify(data, null, 2)
 );
 console.log('portfolioData.json generated successfully!');
+
